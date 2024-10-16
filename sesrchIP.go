@@ -9,11 +9,6 @@ import (
 	"os"
 )
 
-// "country":"Belarus"
-// "regionName":"Grodnenskaya"
-// "city":"Hrodna",
-// "query":"ip"
-
 type ApiResponseIP struct {
 	Country    string `json:"country"`
 	RegionName string `json:"regionName"`
